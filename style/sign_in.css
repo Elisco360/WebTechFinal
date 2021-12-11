@@ -1,0 +1,158 @@
+
+#logo {
+    justify-content: left;
+    padding-top: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+
+.right{
+    padding: 100px;
+}
+
+.welcome-text{
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+
+#sign_in{
+    width: 400px;
+    height: 45px;
+    background-color: #341EFF;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+h3 {
+    font-size: 35px;
+}
+
+
+#exampleInputEmail1{
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#exampleInputEmail1:focus{
+    border-color: #341EFF;
+    box-shadow: none;
+    outline: none;
+}
+
+#exampleInputPassword1{
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#exampleInputPassword1:focus{
+    border-color: #341EFF;
+    box-shadow: none;
+    outline: none;
+}
+
+.form p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .img1{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1{
+        width: 700px;
+    }
+    
+    .welcome-text h3{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .img1{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .img1{
+        width: 400px;
+    }
+
+    .right{
+        padding: 100px 0px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .right{
+        width: 350px;
+    }
+
+    .img1{
+        width: 300px;
+    }
+
+    #exampleInputEmail1,
+    #exampleInputPassword1,
+    #sign_in{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    form{
+        width: 300px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #exampleInputEmail1,
+    #exampleInputPassword1,
+    #sign_in{
+        width: 300px;
+    }
+
+    .welcome-text{
+        width: 300px;
+        margin: auto;
+    }
+}
+

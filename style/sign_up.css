@@ -1,0 +1,269 @@
+body{
+    overflow-y: hidden;
+}
+
+#logo {
+    justify-content: left;
+    padding-top: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.left{
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+
+
+.right{
+    padding: 100px;
+}
+
+.welcome-text{
+    margin-top: -80px;
+    margin-bottom: 60px;
+}
+
+#sign_up{
+    width: 400px;
+    height: 45px;
+    background-color: #341EFF;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.wrapper{
+    align-items: center;
+}
+
+#exampleInputEmail1{
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#exampleInputEmail1:focus{
+    border-color: #341EFF;
+    box-shadow: none;
+    outline: none;
+}
+
+#exampleInputPassword2{
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#exampleInputPassword2:focus{
+    border-color: #341EFF;
+    box-shadow: none;
+    outline: none;
+}
+
+#exampleInputName{
+    width: 400px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#exampleInputName:focus{
+    border-color: #341EFF;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.form-control{
+    width: 300px;
+    display: inline-block;
+}
+
+.pos{
+    display: flex;
+    width:400px
+}
+
+.inp1{
+    width: 42%;
+    margin-right: 15px;
+}
+
+.inp2{
+    width: 42%;
+}
+
+@media only screen and (max-width: 1320px) {
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+    }
+    body{
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container .img-2{
+        width: 500px;
+    }
+
+    .right{
+        padding:100px 0px;
+    }
+
+    .inp1{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container .img-2{
+        width: 400px;
+    }
+
+    .right{
+        width: 350px;
+    }
+
+    #exampleInputName {
+        width: 200px;
+    }
+
+    #exampleInputEmail1{
+        width: 350px;
+    }
+
+    #exampleInputPassword2{
+        width: 350px;
+    }
+
+
+
+    #sign_up{
+        width:350px;
+    }
+
+    .pos{
+        width:300px
+    }
+
+    .inp1{
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .inp2{
+        width: 100px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .right{
+        width: 300px;
+    }
+
+    .right{
+        width: 300px;
+    }
+
+    #exampleInputName {
+        width: 300px;
+    }
+
+    #exampleInputEmail1{
+        width: 300px;
+    }
+
+    #exampleInputPassword2{
+        width: 300px;
+    }
+
+    #sign_up{
+        width:300px;
+    }
+
+    .container .img-2{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .right{
+        width: 300px;
+    }
+
+    #exampleInputName {
+        width: 250px;
+    }
+
+    #exampleInputEmail1{
+        width: 250px;
+    }
+
+    #exampleInputPassword2{
+        width: 250px;
+    }
+
+    #sign_up{
+        width:250px;
+    }
+
+    .container .img-2{
+        width: 240px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mb-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .welcome-text h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .welcome-text .text{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .inp1{
+        margin-bottom: 20px;
+    }
+}
